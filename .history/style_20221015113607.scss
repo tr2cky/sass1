@@ -1,0 +1,24 @@
+$color-primary: red;
+$color-secondary: blue;
+$color-tertiary: green;
+.exercise {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid $color-primary;
+    h1 {
+        color: $color-tertiary;
+        grid-column: 1/ span 4;
+        justify-self: center;
+    }
+    section {
+        grid-template-rows: 2;
+        grid-template-columns: 1 / span 4;
+        justify-self: center;
+        align-self: center;
+        display: flex;
+    }
+    article {
+        border: 1px solid $color-tertiary;
+        jus
+    }
+}
